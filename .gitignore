@@ -1,0 +1,128 @@
+# ============================================================
+# CLEAN & OPTIMIZED .gitignore for YOLOv5 (Custom by gcsai)
+# Keeps demo images, YAMLs, scripts — removes junk + heavy files
+# ============================================================
+
+# -----------------------------
+# Ignore all images/videos EXCEPT demo images
+# -----------------------------
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.JPG
+*.JPEG
+*.PNG
+*.BMP
+*.TIF
+*.TIFF
+*.HEIC
+*.gif
+*.mp4
+*.avi
+*.mov
+*.MOV
+
+# Keep YOLOv5 demo images
+!data/images/
+!data/images/zidane.jpg
+!data/images/bus.jpg
+
+# -----------------------------
+# Ignore datasets
+# -----------------------------
+data/*
+!data/*.yaml
+!data/hyps
+!data/scripts
+!data/images
+!data/images/zidane.jpg
+!data/images/bus.jpg
+
+coco/
+coco128/
+VOC/
+
+# -----------------------------
+# Ignore YOLO outputs
+# -----------------------------
+runs/*
+
+# -----------------------------
+# Model weights and exports
+# -----------------------------
+*.pt
+*.weights
+*.onnx
+*.engine
+*.pb
+*.mlmodel
+*.mlpackage
+*.torchscript
+*.tflite
+*.h5
+*_saved_model/
+*_openvino_model/
+*_web_model/
+*_paddle_model/
+
+# -----------------------------
+# Python cache & junk
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.cache
+
+# -----------------------------
+# Environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV*/
+
+# -----------------------------
+# IDE / Editor files
+# -----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -----------------------------
+# Streamlit cache
+# -----------------------------
+.streamlit/
+
+# -----------------------------
+# OS junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Build / Dist
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Backup files
+# -----------------------------
+*.tmp
+*.bak
