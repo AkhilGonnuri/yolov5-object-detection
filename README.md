@@ -194,3 +194,4 @@ runs/
 
 G Chaitanya Sai
 Customized and enhanced YOLOv5 for real-world usage, deployment, and portfolio-ready presentation.
+
