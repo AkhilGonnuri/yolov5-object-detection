@@ -126,3 +126,6 @@ dist/
 # -----------------------------
 *.tmp
 *.bak
+
+# allow project banner image
+!main_page.jpg

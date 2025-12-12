@@ -1,17 +1,4 @@
-<div align="center">
-  <a href="https://www.ultralytics.com" target="_blank">
-    <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" alt="Ultralytics YOLO Banner">
-  </a>
-</div>
 
-<p align="center">
-  <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml">
-    <img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="YOLOv5 CI Testing">
-  </a>
-  <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab">
-  </a>
-</p>
 
 # 🚀 YOLOv5 — Object Detection (Customized by **G Chaitanya Sai**)
 
